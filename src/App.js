@@ -20,8 +20,8 @@ function App() {
   };
 
   return (
-    <>
-      <div className="App">
+    <main className="bg-indigo-700 w-screen h-screen flex flex-col items-center justify-center pb-32">
+      <div className="bg-slate-300 w-[600px] p-5 rounded-md my-4">
         {allQuotes.length ? (
           <RandomQuote
             allQuotes={allQuotes}
@@ -33,7 +33,7 @@ function App() {
         )}
       </div>
       <FooterPart />
-    </>
+    </main>
   );
 }
 

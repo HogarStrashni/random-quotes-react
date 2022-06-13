@@ -10,7 +10,7 @@ const FooterPart = () => {
 
   return (
     <div>
-      <h3 className="time-clock">{time}</h3>
+      <h3 className="text-center text-slate-200 text-xl">{time}</h3>
     </div>
   );
 };
